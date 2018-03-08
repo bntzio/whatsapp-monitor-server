@@ -2,8 +2,17 @@
   "name": "whatsapp-monitor-server",
   "version": "0.1.0",
   "description": "Webserver for WhatsApp Monitor",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "git@github.com:bntzio/whatsapp-monitor-server.git",
   "author": "Enrique Benitez <hello@bntz.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0"
+  }
 }
